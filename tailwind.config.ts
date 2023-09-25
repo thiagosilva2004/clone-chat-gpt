@@ -13,6 +13,19 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      colors:{
+        'gpt-gray': '#343541',
+        'gpt-light_gray': '#40414F'
+      },
+      keyframes:{
+        blink:{
+          '0%': {opacity: '0'},
+          '100': {opacity: '1'}
+        }
+      },
+      animation:{
+        blink: 'blink 1s infinite'
+      }
     },
   },
   plugins: [],
